@@ -1,3 +1,9 @@
+// NOTE: How much is this code actually async is up to a debate.
+// While in this case I may not need Arc, Mutex, Box, etc, I wanted to fell smart and use them.
+// I am still learning rust. Do not hate me pls.
+
+
+
 use std::fs::OpenOptions;
 use std::io::Write;
 use std::sync::{Arc, Mutex};
