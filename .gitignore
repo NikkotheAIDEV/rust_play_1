@@ -1,3 +1,7 @@
-/target
-/.idea
-/project
+#/target
+#/.idea
+#/project
+
+target
+.idea
+project
